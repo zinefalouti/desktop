@@ -14,6 +14,10 @@ def main():
     words += fourth
     print("_"*30)
     listing(words)
+    n=1
+    for w in words:
+        print(f"Entry {n}: {w}")
+        n+=1
     
 #Message Function
 def ask(message):
