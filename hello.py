@@ -10,10 +10,11 @@ def main():
     print("_"*30)
     listing(words)
     
-
+#Message Function
 def ask(message):
     return input(message)
 
+#Listing for STR Length
 def listing(list):
     total = len(list)
     print(f"Total str is: {total}")
