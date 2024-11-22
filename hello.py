@@ -2,7 +2,7 @@ def main():
     first = ask("Hi, what's your name? ")
     second = ask("What's your age? ")
     third = ask("What's your objective? ")
-    print(f"Your name is {first}, your age is {second}, and your objective is {third}")
+    print(f"Your first name is {first}, your age is {second}, and your objective is {third}")
     words = []
     words += first
     words += second
