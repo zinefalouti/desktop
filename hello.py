@@ -6,6 +6,7 @@ def main():
     print(f"Your name is {first}, your age is {second}, and your objective is {third}")
     print("-"*6)
     print(f"Comments: {fourth}")
+    print(f"Your first name is {first}, your age is {second}, and your objective is {third}")
     words = []
     words += first
     words += second
